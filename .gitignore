@@ -1,5 +1,22 @@
-.env
-.venv
+# Виртуальные окружения
+.venv/
+sync_env/
+env/
+
+# Кэши Python
 __pycache__/
 *.pyc
-sync.log
+*.pyo
+*.pyd
+
+# Файлы IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Локальные логи
+*.log
+
+# Файлы окружения
+.env
